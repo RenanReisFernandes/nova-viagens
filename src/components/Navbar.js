@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import './Navbar.css';
 import $ from 'jquery';
 import React, { useEffect } from 'react';
-import { faHome } from '@fortawesome/free-solid-svg-icons'
 import logoRedonda2 from '../Assets/logoRedonda2.png'
 
 
@@ -82,11 +81,8 @@ const Navbar = () => {
           </div>
 
 
-
           <li className="nav-item active">
             <Link className="nav-link" to="/">
-
-
               <i
                 class="fas fa-home">
 
@@ -153,6 +149,7 @@ const Navbar = () => {
               </i>Suas viagens
             </Link>
           </li>
+          
         </ul>
       </div>
     </nav>

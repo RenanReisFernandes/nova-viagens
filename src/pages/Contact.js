@@ -26,6 +26,7 @@ function Contact() {
                         </Form.Group>
 
                         <div>
+
                             <Button className="btn" variant="primary" type="submit">
                                 ENVIAR
                             </Button>

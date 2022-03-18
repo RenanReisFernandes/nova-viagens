@@ -10,15 +10,15 @@ function Login() {
         <Form>
           <Form.Group className="mb-3" controlId="formGroupEmail">
             <Form.Label className="formcolor">Email</Form.Label>
-            <Form.Control  type="email" placeholder="Digite seu Email" />
+            <Form.Control type="email" placeholder="Digite seu Email" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formGroupPassword">
             <Form.Label className="formcolor">Senha</Form.Label>
             <Form.Control type="password" placeholder="Digite sua senha" />
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <button>
             ENTRAR
-          </Button>
+          </button>
         </Form>
       </div>
     </div>

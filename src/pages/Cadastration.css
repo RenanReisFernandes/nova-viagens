@@ -1,18 +1,122 @@
+.body_cadastration{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../Assets/balloon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.div_cadastration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
 .cadastrationForm{
-    margin: 90px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cadastrationForma{
+    margin: 20px;
     padding: 40px;
-    border: 3px solid #000;
     border-radius: 50px;
+    width: auto;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.aboutsec1{
-    min-height: 100vh;
-    width: 100%;
+.cadastrationForma Form{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+
+    background-color:transparent;
+    backdrop-filter: blur(10px);
 }
 
-.destinationsec1{
-    min-height: 100vh;
-    width: 100%;
-    background:linear-gradient(to bottom, rgb(243, 246, 247), rgb(205, 231, 235), rgb(10, 178, 204));
+.cad_label{
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
+
+@media(max-width:350px){
+    .cadastrationForma Form{
+        padding: 10px;
+    } 
+}
+
+
+.button {
+    --color: #00A97F;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+   
