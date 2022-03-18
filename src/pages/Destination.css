@@ -1,0 +1,101 @@
+
+.main_destination{
+    background-color: rgb(10, 178, 204);
+}
+
+.sestinationseca{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Assets/aventura11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 50vh;
+    width: 100%;
+}
+
+.destinationsecb{
+    width: 100%;
+    height: 150px;
+}
+
+.destinationsecb h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'Font Awesome 5 Free';
+    font-style: italic;
+    font-weight: bolder;
+    color:#000;
+}
+.sestinationseca img{
+    width: 100%;
+}
+
+.div_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div_cont{
+    margin: 40px;
+    padding-top: 20px;
+    width: 300px;
+    height: 400px;
+    background:linear-gradient(to bottom, rgb(151, 190, 197),rgb(174, 179, 182),  rgb(108, 168, 194));
+    border-radius: 5px;
+    border:transparent;
+}
+
+.div_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.div_img img{
+ width: 90%;
+ height: 90%;
+ margin-top: 15px;
+ border-radius: 35px;
+}
+
+.div_description{
+    padding: 3px;
+}
+
+.div_description h4{
+    margin-top: 40px;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.div_description button{
+    width: 180px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.div_description button h6{
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.div_description button p{
+    font-weight: bolder;
+    color: #fff;
+}
+

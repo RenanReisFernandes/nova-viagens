@@ -1,0 +1,183 @@
+.about{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Assets/aventura9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.aboutphrase1{
+    float: left;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    width: 60%;
+    margin-top: 20px;
+    background-color:transparent;
+    backdrop-filter: blur(1px);
+    color: #fff;
+}
+
+.aboutphrase1 h2{
+    text-align:start;
+    padding: 25px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Font Awesome 5 Free';
+    text-transform: uppercase;
+}
+
+.aboutphrase1 h5{
+    text-align:start;
+    margin-left: 25px;
+    font-family: 'Font Awesome 5 Free';
+    overflow: hidden;
+}
+
+
+.sec3{
+    margin: 130px 20px 20px 20px;
+    color: #000;
+}
+
+
+.about2{
+    min-height: 100vh;
+    width: 100%;
+    background:linear-gradient(to bottom, rgb(243, 246, 247), rgb(205, 231, 235), rgb(10, 178, 204));
+}
+
+.aboutsec2{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+font-family: 'Font Awesome 5 Free';
+}
+
+.about2side1{
+    margin: 35px 10px 0px 25px;
+    height: 300px;
+    text-align: left;
+    overflow: auto;
+}
+
+
+.about2side1cont{
+    background-color:transparent;
+}
+
+
+.about2side1 h2{
+    text-align:center;
+    margin: 15px;
+    font-weight: bolder;
+}
+
+
+.about2side2cont{
+    background-color: rgb(10, 178, 204);
+}
+
+.about2side2{
+    margin: 35px 25px 0px 10px;
+    height: 300px;
+    text-align: left;
+    background-color: rgb(10, 178, 204);
+    overflow: auto;
+}
+
+.about2side2 h2{
+    text-align:center;
+    margin: 15px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.aboutsec3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Font Awesome 5 Free';
+    background-color: rgb(199, 206, 207);
+    height: 70vh;
+    }
+    
+
+.aboutsec3div1{
+    margin: 0px 5px 0px 10px;
+    background-color: transparent;
+    background-color: rgb(199, 206, 207);
+    padding: 15px;
+}
+
+.aboutsec3div1 img{
+    width: 70px;
+}
+
+.aboutsec3div2{
+    margin: 0px 5px 0px 5px;
+    background-color: rgb(10, 178, 204);
+    padding: 15px;
+}
+
+.aboutsec3div2 img{
+    width: 70px;
+}
+
+
+.aboutsec3div3{
+    margin: 0px 10px 0px 5px;
+    background-color: rgb(199, 206, 207);
+    padding: 15px;
+}
+
+.aboutsec3div3 img{
+    width: 70px;
+}
+
+@media(max-width:340px){
+    .about{
+        height: 100vh;
+    }
+    .about h5{
+        height: 100vh;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:870px){
+.aboutsec2{
+    flex-direction: column;
+}
+}
+
+@media(max-width:340px){
+    .aboutsec2{
+        flex-direction: column;
+        overflow: auto;
+        font-size: 10px;
+        height: auto;
+    }
+    }
+    
+
+@media(max-width:600px){
+.aboutsec3{
+    flex-direction: column;
+    height: 100vh;
+}
+}
+
+@media(max-width:340px){
+    .aboutsec3{
+        flex-direction: column;
+        overflow: auto;
+        font-size: 10px;
+    }
+}

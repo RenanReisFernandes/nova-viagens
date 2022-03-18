@@ -1,0 +1,90 @@
+
+.cont_sec_main{
+    background-color: rgb(66, 66, 80);
+    min-height: 100vh;
+    width: 100%;
+    margin-right: 0;
+    border: 0;
+}
+
+.cont_sec_main2{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+}
+
+.cont_sec1{
+    background-color: rgb(10, 178, 204);
+    width: 500px;
+    height: 500px;
+    margin: 60px;
+    float: right;
+
+}
+
+Form{
+    margin: 60px 40px 40px 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+Form h3{
+    color: #000;
+    font-weight: bolder;
+}
+
+Form button{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cont_sec2{
+    background-color:transparent;
+    width: 400px;
+    height: 500px;
+    margin: 60px;
+    float: left;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.cont_sec2_card{
+    width: 150px;
+    height: 200px;
+    background-color:#fff;
+}
+
+.cont_sec2_card img{
+    width: 50px;
+    margin: 15px;
+}
+
+
+
+.cont_sec2_card h5{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #000;
+}
+
+@media(max-width:460px){
+    .cont_sec2{
+        height: auto;
+        width: auto;
+        margin:20px;
+    }
+    .cont_sec2_card{
+        padding: 20px;
+        margin: 15px;
+    }
+};

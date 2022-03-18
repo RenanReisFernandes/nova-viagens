@@ -1,0 +1,18 @@
+.cadastrationForm{
+    margin: 90px;
+    padding: 40px;
+    border: 3px solid #000;
+    border-radius: 50px;
+}
+
+.aboutsec1{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.destinationsec1{
+    min-height: 100vh;
+    width: 100%;
+    background:linear-gradient(to bottom, rgb(243, 246, 247), rgb(205, 231, 235), rgb(10, 178, 204));
+}
+

@@ -1,0 +1,47 @@
+.body_login{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../Assets/luggage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.loginForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginForm Form{
+    align-items: center;
+    justify-content: center;
+    margin: 135px;
+}
+
+.aboutsec1{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.destinationsec1{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.formcolor{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+form{
+    background-color:transparent;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+}
+
