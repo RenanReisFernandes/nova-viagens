@@ -30,10 +30,13 @@ function Destinations() {
                         </div>
                         <div className="div_description">
                             <h4>Bolívia</h4>
-                            <button>
+                            <h6>Preço</h6>
+                            <h5>R$ 1.999</h5>
+
+                            <div className="btn">
                                 <h6>Código</h6>
                                 <p>1111</p>
-                            </button>
+                            </div>
                         </div>
                     </div>
 
@@ -44,10 +47,13 @@ function Destinations() {
                         </div>
                         <div className="div_description">
                             <h4>Egito</h4>
-                            <button>
+                            <h6>Preço</h6>
+                            <h5>R$ 2.999</h5>
+
+                            <div className="btn">
                                 <h6>Código</h6>
                                 <p>2222</p>
-                            </button>
+                            </div>
                         </div>
                     </div>
 
@@ -58,12 +64,16 @@ function Destinations() {
                         </div>
                         <div className="div_description">
                             <h4>Vancouver</h4>
-                            <button>
+                            <h6>Preço</h6>
+                            <h5>R$ 2.879</h5>
+
+                            <div className="btn">
                                 <h6>Código</h6>
                                 <p>3333</p>
-                            </button>
+                            </div>
                         </div>
                     </div>
+
 
                     <div className="div_cont">
                         <div className="div_img">
@@ -71,12 +81,16 @@ function Destinations() {
                         </div>
                         <div className="div_description">
                             <h4>Rio de Janeiro</h4>
-                            <button>
+                            <h6>Preço</h6>
+                            <h5>R$ 1.990</h5>
+
+                            <div className="btn">
                                 <h6>Código</h6>
                                 <p>4444</p>
-                            </button>
+                            </div>
                         </div>
                     </div>
+
 
                     <div className="div_cont">
                         <div className="div_img">
@@ -84,12 +98,17 @@ function Destinations() {
                         </div>
                         <div className="div_description">
                             <h4>Portugal</h4>
-                            <button>
+                            <h6>Preço</h6>
+                            <h5>R$ 3.750</h5>
+
+                            <div className="btn">
                                 <h6>Código</h6>
                                 <p>5555</p>
-                            </button>
+                            </div>
                         </div>
+
                     </div>
+
 
                     <div className="div_cont">
                         <div className="div_img">
@@ -97,11 +116,15 @@ function Destinations() {
                         </div>
                         <div className="div_description">
                             <h4>São Paulo</h4>
-                            <button>
+                            <h6>Preço</h6>
+                            <h5>R$ 1.220</h5>
+
+                            <div className="btn">
                                 <h6>Código</h6>
                                 <p>6666</p>
-                            </button>
+                            </div>
                         </div>
+
                     </div>
 
 
